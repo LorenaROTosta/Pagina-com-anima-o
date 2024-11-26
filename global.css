@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  color: #111111;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+img[src$=".jpg"] {
+  border-radius: 0;
+}
+
+button {
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 15px;
+  background: #ededed;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #b2b2b2; /* Cor ao passar o mouse */
+  transform: scale(1.1); /* Aumenta o botão levemente */
+}
